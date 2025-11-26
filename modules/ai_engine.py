@@ -7,10 +7,7 @@ import nltk
 from nltk.corpus import stopwords
 import re
 
-API_KEY = "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"
-#API_KEY = "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"
-#API_KEY = "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"
-#API_KEY = "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"
+API_KEY = "YOUR_GROQ_API_KEY_HERE"
 
 client = Groq(api_key=API_KEY)
 
