@@ -6,8 +6,8 @@ from sklearn.metrics.pairwise import cosine_similarity
 import nltk
 from nltk.corpus import stopwords
 import re
-
-API_KEY = "YOUR_GROQ_API_KEY_HERE"
+# Pra rodar local, precisa setar a API_KEY groq
+#API_KEY = ""
 
 client = Groq(api_key=API_KEY)
 

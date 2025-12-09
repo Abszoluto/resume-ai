@@ -5,3 +5,6 @@ nltk
 pandas
 requests
 beautifulsoup4
+python-docx
+PyPDF2
+gunicorn
